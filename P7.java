@@ -20,12 +20,12 @@ class A
 
                 if(count==10001)
                     break;
-            }
 
-            for(j=i*i;j<1000000;j+=i)
-            {
-                if(j<10000000)
-                isNotPrime[(int)j] = true;
+                for(j=i*i;j<1000000;j+=i)
+                {
+                    if(j<10000000)
+                        isNotPrime[(int)j] = true;
+                }
             }
         }
 
