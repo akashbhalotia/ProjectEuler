@@ -16,6 +16,7 @@ class A
             if(i%3==0||i%5==0)
                 sum+=i;
         }
+        
         System.out.println(sum);
     }
 }
