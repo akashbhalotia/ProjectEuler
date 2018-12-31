@@ -1,2 +1,2 @@
 # ProjectEuler
-Solutions to Project Euler problems (wwww.projecteuler.net)
+Solutions to Project Euler problems (www.projecteuler.net)
