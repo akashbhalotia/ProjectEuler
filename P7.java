@@ -8,10 +8,11 @@ class A
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 
         long i,j,ans=1,count=0;
+        int N=1000000;
 
-        boolean isNotPrime[]=new boolean[1000000];
+        boolean isNotPrime[]=new boolean[N];
 
-        for(i=2;i<1000000;i++)
+        for(i=2;i<N;i++)
         {
             if(isNotPrime[(int)i]==false)
             {
@@ -21,10 +22,9 @@ class A
                 if(count==10001)
                     break;
 
-                for(j=i*i;j<1000000;j+=i)
+                for(j=i*i;j<N;j+=i)
                 {
-                    if(j<10000000)
-                        isNotPrime[(int)j] = true;
+                    isNotPrime[(int) j] = true;
                 }
             }
         }
